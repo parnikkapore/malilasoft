@@ -16,12 +16,12 @@ http://creativecommons.org/licenses/by-sa/2.5/
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta http-equiv="Content-Language" content="en"/>
 				<title><xsl:value-of select="zi:name"/></title>
-				<link rel="stylesheet" type="text/css" href='https://p-malilasoft.github.io//resources/feed.css'/>
+				<link rel="stylesheet" type="text/css" href='https://parnikkapore.github.io/malilasoft/resources/feed.css'/>
 			</head>
 			<body>
 				<div class="site">
 					<div class="title">
-						<a href="https://p-malilasoft.github.io/">https://p-malilasoft.github.io/</a>
+						<a href="https://parnikkapore.github.io/malilasoft/">https://parnikkapore.github.io/malilasoft/</a>
 					</div>
 					<div class="main">
 						<div class="content">
