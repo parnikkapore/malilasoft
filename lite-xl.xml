@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://p-malilasoft.github.io/lite-xl.xml">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://parnikkapore.github.io/malilasoft/lite-xl.xml">
   <name>Lite XL</name>
   <summary>a lightweight text editor written in Lua</summary>
 
@@ -41,13 +41,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmHuvekACgkQe6Cb21frEHqvcAwAmbQA
-oNY82BaJASw/5E2n9ae51uTwCw7B7KjPmd+5K2nz8KzE7KUxzornUUPhICiiXv7SP/KSffWFiL0z
-6g12FH3pdFjmr4x5Dx5VKcMeh6pqRgIX6UXM6NJbwakHYziXY2ywtsGMLZ0EhrTmY+IFrniPOJiU
-jeDdXbJARXvyWkEMH+y75ECTFZzdTgEamGVVy8w7GibqXVgEewXYFnfiUdWhoPCg8ThiIalng3KK
-Y3touJZhjBzlzhLe2LO9eCurDKkLSi7JihKQ8aDlG7VQ7YcWQEfEPFvFZgIOQHRQRv04tsHSV7JK
-YG2x+IiDOIDNgXTAX+0NMorLa7ufRh2DPxmoEsgf/igy64LXkBOt5eOFjQ/X+Jo4U3X8ZPZzoL8M
-7y9xLFlADM0P0u13wH4fMUQCqK51iYBLI73EGaethuNNyLWFzvu/ALufb5Cmfj0N1+bdP4JYaR+Q
-SwL6W+E+d5RWnblyLLIAbXyUJh3/DxfvhroeFrJAHSnsrWAtqHEF
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmHuwR4ACgkQe6Cb21frEHpeGAwAhwWW
+1XHfjMPnWf3oM0xl7LaeTyJAkLme0aJk4E1eSYMKwlKYSws3MNZLPNcvP4h8R2WnDorEy2wNwxKn
+qgUgpY6Z7BTlD/5aUJGXamt9Tb+wZg2gE6ob5SoBjK5SLEezZyZRAH63UFbI1wBYXhQ9thplImQ0
+TT5Zt/AjOA4mUagw9xI2p6pt7qMx0TFXDoZ+LZRgmIik/I1wgH8GViODSe6pWpw/p+9Nds5dR7cA
+3sVIdl2D70z6lbdd2VfNeOj816sVH2edqkTM5rGxB+gZotGArZeX7O0aHbKnaNfMOcL+0nZMXpaP
+gwsAlXGXwbe9XFooDzaMfkd88DXdhGA1mv62DXRiQ/tld79xhwOiWZFKTAK72qo7W4w4B7fZI9Gu
+ktAiL+MTrCRZURjX6VAIx8TBi2TFNjs2M+zFhpseJwjloiztzCNWSPuDBvaZNBE35zkLb39gDE9J
+gyylHKpqBvQbgPFtwTyPkT6zF6gLKC86D+leySipaFOpxRMivFFx
 
 -->
