@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://p-malilasoft.github.io/lite-xl.xml">
+  <name>Lite XL</name>
+  <summary>a lightweight text editor written in Lua</summary>
+
+  <description>
+    A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite.
+    
+    The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
+  </description>
+
+  <homepage>https://lite-xl.com/</homepage>
+
+  <icon type="image/svg" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/lite-xl.svg"/>
+  <icon type="image/vnd.microsoft.icon" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/lite-xl.ico"/>
+  <icon type="image/x-icns" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/lite-xl.icns"/>
+
+  <group license="MIT License">
+<!-- Add additional requirements here.
+    <requires interface="..."/>
+    -->
+
+    <implementation version="2.0.4" arch="Linux-x86_64" released="2022-01-24" id="sha1new=7ee6c5353ddbfae2341b9f874e03bc7d46114220">
+      <manifest-digest sha256new="FIVOLZPMVS2YFD2PTVTXNBHIAJBYLQOEBPVSE3X3UC2X7D4GBSSQ"/>
+      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1649641"/>
+      <command name="run" path="bin/lite-xl"/>
+    </implementation>
+<!-- -->
+
+    <implementation version="2.0.4" arch="Windows-x86_64" released="2022-01-24" id="sha1new=7908c1a618393fce9d431259b0a4c828a641816a">
+      <manifest-digest sha256new="W25JFTZLYXXWUD4IZUCSIVGSXWW6MXZZBHHWWKW5L7CSB2YURDYA"/>
+      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip" extract="lite-xl" size="1417721"/>
+      <command name="run" path="lite-xl.exe"/>
+    </implementation>
+    <implementation version="2.0.4" arch="Windows-i686" released="2022-01-24" id="sha1new=39c633e8086bb4b592b3c496e6f36da8b56002a1">
+      <manifest-digest sha256new="EDA5CZ5YZ7XB4KSYDQN25TML7BICTQZS3DNAKVRN7IHBBFFPQQ5Q"/>
+      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip" extract="lite-xl" size="1321492"/>
+      <command name="run" path="lite-xl.exe"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmHuvekACgkQe6Cb21frEHqvcAwAmbQA
+oNY82BaJASw/5E2n9ae51uTwCw7B7KjPmd+5K2nz8KzE7KUxzornUUPhICiiXv7SP/KSffWFiL0z
+6g12FH3pdFjmr4x5Dx5VKcMeh6pqRgIX6UXM6NJbwakHYziXY2ywtsGMLZ0EhrTmY+IFrniPOJiU
+jeDdXbJARXvyWkEMH+y75ECTFZzdTgEamGVVy8w7GibqXVgEewXYFnfiUdWhoPCg8ThiIalng3KK
+Y3touJZhjBzlzhLe2LO9eCurDKkLSi7JihKQ8aDlG7VQ7YcWQEfEPFvFZgIOQHRQRv04tsHSV7JK
+YG2x+IiDOIDNgXTAX+0NMorLa7ufRh2DPxmoEsgf/igy64LXkBOt5eOFjQ/X+Jo4U3X8ZPZzoL8M
+7y9xLFlADM0P0u13wH4fMUQCqK51iYBLI73EGaethuNNyLWFzvu/ALufb5Cmfj0N1+bdP4JYaR+Q
+SwL6W+E+d5RWnblyLLIAbXyUJh3/DxfvhroeFrJAHSnsrWAtqHEF
+
+-->
