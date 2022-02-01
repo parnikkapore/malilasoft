@@ -10,6 +10,9 @@
     The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
   </description>
 
+  <category>Development</category>
+  <category>TextEditor</category>
+
   <homepage>https://lite-xl.com/</homepage>
 
   <icon type="image/svg" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/lite-xl.svg"/>
@@ -17,32 +20,17 @@
   <icon type="image/vnd.microsoft.icon" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.ico"/>
   <icon type="image/x-icns" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.icns"/>
 
-  <group license="MIT License"><!-- Add additional requirements here.
-    <requires interface="..."/>
-    -->
-
-    <implementation version="2.0.4" arch="Linux-x86_64" released="2022-01-24" id="sha1new=7ee6c5353ddbfae2341b9f874e03bc7d46114220" stability="stable">
-      <manifest-digest sha256new="FIVOLZPMVS2YFD2PTVTXNBHIAJBYLQOEBPVSE3X3UC2X7D4GBSSQ"/>
-      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1649641"/>
-      <command name="run" path="bin/lite-xl"/>
-    </implementation><!-- -->
-
-    <implementation version="2.0.4" arch="Windows-x86_64" released="2022-01-24" id="sha1new=7908c1a618393fce9d431259b0a4c828a641816a" stability="stable">
-      <manifest-digest sha256new="W25JFTZLYXXWUD4IZUCSIVGSXWW6MXZZBHHWWKW5L7CSB2YURDYA"/>
-      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip" extract="lite-xl" size="1417721"/>
-      <command name="run" path="lite-xl.exe"/>
-    </implementation>
-    <implementation version="2.0.4" arch="Windows-i686" released="2022-01-24" id="sha1new=39c633e8086bb4b592b3c496e6f36da8b56002a1" stability="stable">
-      <manifest-digest sha256new="EDA5CZ5YZ7XB4KSYDQN25TML7BICTQZS3DNAKVRN7IHBBFFPQQ5Q"/>
-      <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip" extract="lite-xl" size="1321492"/>
-      <command name="run" path="lite-xl.exe"/>
-    </implementation>
+  <group license="MIT License">
     <group>
       <requires interface="https://parnikkapore.github.io/malilasoft/glibc.xml"/>
       <command name="run" path="bin/lite-xl"/>
       <implementation arch="Linux-x86_64" released="2022-02-01" id="sha1new=e5126395a31ceec485d273f653fdc707ab856d27" stability="stable" version="2.0.5">
         <manifest-digest sha256new="7JEIONUYIDIU6HA6WQYMK744DRCUOXRKQZZTXLANVBRYVTYAZEAQ"/>
         <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1659371"/>
+      </implementation>
+      <implementation version="2.0.4" arch="Linux-x86_64" released="2022-01-24" id="sha1new=7ee6c5353ddbfae2341b9f874e03bc7d46114220" stability="stable">
+        <manifest-digest sha256new="FIVOLZPMVS2YFD2PTVTXNBHIAJBYLQOEBPVSE3X3UC2X7D4GBSSQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1649641"/>
       </implementation>
     </group>
     <group>
@@ -55,17 +43,69 @@
         <manifest-digest sha256new="6FQ5O5KJ7C2D6PNB6OZIZSJS4LS6QWTVOVNAF6GV5PGFPOUYOXSA"/>
         <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-windows-x86.zip" extract="lite-xl" size="1322761"/>
       </implementation>
+      <implementation version="2.0.4" arch="Windows-x86_64" released="2022-01-24" id="sha1new=7908c1a618393fce9d431259b0a4c828a641816a" stability="stable">
+        <manifest-digest sha256new="W25JFTZLYXXWUD4IZUCSIVGSXWW6MXZZBHHWWKW5L7CSB2YURDYA"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip" extract="lite-xl" size="1417721"/>
+      </implementation>
+      <implementation version="2.0.4" arch="Windows-i686" released="2022-01-24" id="sha1new=39c633e8086bb4b592b3c496e6f36da8b56002a1" stability="stable">
+        <manifest-digest sha256new="EDA5CZ5YZ7XB4KSYDQN25TML7BICTQZS3DNAKVRN7IHBBFFPQQ5Q"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip" extract="lite-xl" size="1321492"/>
+      </implementation>
     </group>
   </group>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="txt" explicit-only="true">
+      <extension value=".txt" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="c">
+      <extension value=".c" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="cpp">
+      <extension value=".cpp" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="css">
+      <extension value=".css" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="html" explicit-only="true">
+      <extension value=".html" perceived-type="text"/>
+      <extension value=".htm" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="js" explicit-only="true">
+      <extension value=".js" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="lua">
+      <extension value=".lua" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="markdown" explicit-only="true">
+      <extension value=".md" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="python" explicit-only="true">
+      <extension value=".py" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+    <file-type id="xml">
+      <extension value=".xml" perceived-type="text"/>
+      <verb name="open"><arg>${item}</arg></verb>
+    </file-type>
+  </capabilities>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5TUoACgkQe6Cb21frEHrrMwwAxoIP
-Qr2Qkb2ig5y9JNoYZhEBn8FY8Puymtxg/e8Vk2Z4SkiR7xhY+DDlvhRyzzCabE9vIUMt6wwFI4bd
-7GgBYKF+mAZ3wyb+2tLz+eMUMXHQsTIawqzu6aSsrVI696hj8iA2HbPHMFB+5tlVFE8wpHHR6bLN
-p19sEktFp7ThCFEY90mBTEqPfWF15EbKc4RCTe94T5fKSlS8N67OW/zQSuuKWqXCGz2lGYcCHswD
-Z2fBbJNSsfJbBNZdGGMCAN8MW7Zed0+g79KehdHoPpFVZJYaZZA2jbpZRlTD6MXH23W5d32/38cj
-SsIIZh/9/VYygRQC78bEjgCh9lEgeLTP1jbSOGsvF+rA90mSyeCjvle3iY4nWQwkjX642HrIJfsW
-SlDl0H/sR3NWY52J5jX7xEbQiIekz31TGALil3zfF9ltGoKPwvysMuGaZKzxhRk3u5M8QSpUwePN
-bP5gVAY9qlr/XgtshDpn7HlCFfpjhvEy8wBaIiiVQpSAtDJ+EQRo
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5VKUACgkQe6Cb21frEHqlmAv+I8uN
+Qg1yzoVxeEoUndJ8VIaUmQwP/tBrZeRmbp2W+WfV+LDaX0DVrzKdsvtNEwEYUfr3+u4hFsCNUcCl
+DfWE4omkHbt9SLpt8LvuX+3X6IJ+HZMSxcLU+96dPlxUX6GILGDR1ZLVQcCHz/mfrO2qghLLXDDV
+tfAtdTRk/S46yssnxioQEuq49r6qeLqx34aBqDHnCAHdrDpEFEkt8ZyFAGmBP2kUhdyHRsgr4dYF
+iuTYxNwQSyE8Xt4I2vr5fWdyKNq8MBTPfx7dlS0+V6V2kGvyjFRCyPouJGZhvz0WJfAlKLW0FKf3
+ke2JhU/uDkmQjkmro8N4WjCogy8mjVDWAQs4OKA7iht8Gpuby31z3oFsUSNZCRAI8ZZz32ea3uaT
+bHpA93hWLXYZFhnsJi1KbrhYeXLmWuJorQDHdUQT0d6Q+TtrjDsSidrENjxTQanedCwxcbtKdHNG
+R/Cs6p5h1mAZhfdyz58YVJ5s0744yBp4eTLRq3p6EFmmDEcQ21mt
 
 -->
