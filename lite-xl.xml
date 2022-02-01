@@ -17,38 +17,55 @@
   <icon type="image/vnd.microsoft.icon" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.ico"/>
   <icon type="image/x-icns" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.icns"/>
 
-  <group license="MIT License">
-<!-- Add additional requirements here.
+  <group license="MIT License"><!-- Add additional requirements here.
     <requires interface="..."/>
     -->
 
-    <implementation version="2.0.4" arch="Linux-x86_64" released="2022-01-24" id="sha1new=7ee6c5353ddbfae2341b9f874e03bc7d46114220">
+    <implementation version="2.0.4" arch="Linux-x86_64" released="2022-01-24" id="sha1new=7ee6c5353ddbfae2341b9f874e03bc7d46114220" stability="stable">
       <manifest-digest sha256new="FIVOLZPMVS2YFD2PTVTXNBHIAJBYLQOEBPVSE3X3UC2X7D4GBSSQ"/>
       <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1649641"/>
       <command name="run" path="bin/lite-xl"/>
-    </implementation>
-<!-- -->
+    </implementation><!-- -->
 
-    <implementation version="2.0.4" arch="Windows-x86_64" released="2022-01-24" id="sha1new=7908c1a618393fce9d431259b0a4c828a641816a">
+    <implementation version="2.0.4" arch="Windows-x86_64" released="2022-01-24" id="sha1new=7908c1a618393fce9d431259b0a4c828a641816a" stability="stable">
       <manifest-digest sha256new="W25JFTZLYXXWUD4IZUCSIVGSXWW6MXZZBHHWWKW5L7CSB2YURDYA"/>
       <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip" extract="lite-xl" size="1417721"/>
       <command name="run" path="lite-xl.exe"/>
     </implementation>
-    <implementation version="2.0.4" arch="Windows-i686" released="2022-01-24" id="sha1new=39c633e8086bb4b592b3c496e6f36da8b56002a1">
+    <implementation version="2.0.4" arch="Windows-i686" released="2022-01-24" id="sha1new=39c633e8086bb4b592b3c496e6f36da8b56002a1" stability="stable">
       <manifest-digest sha256new="EDA5CZ5YZ7XB4KSYDQN25TML7BICTQZS3DNAKVRN7IHBBFFPQQ5Q"/>
       <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip" extract="lite-xl" size="1321492"/>
       <command name="run" path="lite-xl.exe"/>
     </implementation>
+    <group>
+      <requires interface="https://parnikkapore.github.io/malilasoft/glibc.xml"/>
+      <command name="run" path="bin/lite-xl"/>
+      <implementation arch="Linux-x86_64" released="2022-02-01" id="sha1new=e5126395a31ceec485d273f653fdc707ab856d27" stability="stable" version="2.0.5">
+        <manifest-digest sha256new="7JEIONUYIDIU6HA6WQYMK744DRCUOXRKQZZTXLANVBRYVTYAZEAQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-linux-x86_64.tar.gz" extract="lite-xl" size="1659371"/>
+      </implementation>
+    </group>
+    <group>
+      <command name="run" path="lite-xl.exe"/>
+      <implementation arch="Windows-x86_64" released="2022-02-01" id="sha1new=7e6eaea287e249665d96270788b8e0d59d33bd70" stability="stable" version="2.0.5">
+        <manifest-digest sha256new="TRG3SH5RHREZ57XJXVYLQ2XZDVY2KWZGJ6RZH7ZQNVJDMWRS2DXQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-windows-x86_64.zip" extract="lite-xl" size="1421193"/>
+      </implementation>
+      <implementation arch="Windows-i686" released="2022-02-01" id="sha1new=2aff2baef57bfb7717d8f4c0bbd8ce2e7346b95e" stability="stable" version="2.0.5">
+        <manifest-digest sha256new="6FQ5O5KJ7C2D6PNB6OZIZSJS4LS6QWTVOVNAF6GV5PGFPOUYOXSA"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-windows-x86.zip" extract="lite-xl" size="1322761"/>
+      </implementation>
+    </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmHuyZIACgkQe6Cb21frEHodEAv9Eqxh
-jSBnfw7IETETLfkpyfGlWuF/epyvd0ZNkRlnUTyUUYstIoj4WqSzLpPUaJpqpU+anGuew+PoK4s5
-EQcEppovKaCYVOth4BAck3rndC/qoZDT9WqIDCEKBiFOEUtBUtnIOEGqQkQBLsRSQRw46h93FB1t
-zAqudGN+Gnx0KEZB8rTugBxiEw/R4dcmY/OW0YW4ny65DsegIlNnGcX5vsnGBWtRfGWTQLsUZQqj
-7Cvj0IZFPPmFA5MO552IzvGDRG8/r0fsMTK3o6SxyxMLa97ySz9+3G3zTEUa8ShrkmpDSmTYsgMD
-rNYj41P4QppGV3MJ+qeTAs+f/4280HWBpzPwYLMvy3G0Tg9wHeMAi6fsrVEqmyf1nZl7LrD9gzbb
-PNUWvQQXkV6IJr38TJj+osYP2BYRE1UqU81g6wO1lzqK15UlZO9rI2vQAvtIJiL3mN+FDyH/VaJc
-vs7l/T6P+rdR/QZBBZBsVUhmziVMP87SB0N/gb40geZE7IDWQpRE
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5S8wACgkQe6Cb21frEHqCewwAtWo8
+pbLd4DUSBp3k0gx9mSnVCn729L1UX0Q7iDGf1wAcygYurQsXdhVJ5G0ioI4k2F+kemNLN1jgfTNR
+PA1D6Dq/+rO9uTxf1pKKX8SzYucfqE0IuTiDs5S/RQVG3X+WUIiKeBHWncbKHn0DUQtuluivJavX
+/4DT1ehP0AN8uZy1F1pcKyogFPhY5OX5Ub1yxqCG7S9znWCP/yXBHKq2eQDDdQEbwLZuP8Aj3tou
+RrAa3Cg+PmQa1vLzkPksHaa957y8uguFKDzrXQXox2S1h/FEK5NwMjviEQfU2IP0n0lLz2QTyhR9
+p+mtX5o9ks+VrwaslQuAwNp4T1A+lsnW056n5/hO15bUKUIKnXR3oPmEZxruM4Lr/7kaA4ZBENJs
+HaHJRY7e2WKwCPfN+V1vh+TmyJWenswWshgR6fKt9nSm4+VWC+y4B3NMd7RdrsUk+S3TUfsdUMog
+RHlspcL24Yl58EXWqsQ14LEXTASeh1AJ1TWGbNTgKzHWUSsXQQHb
 
 -->
