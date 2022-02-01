@@ -6,7 +6,7 @@
 
   <description>
     A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite.
-    
+
     The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
   </description>
 
@@ -59,13 +59,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5S8wACgkQe6Cb21frEHqCewwAtWo8
-pbLd4DUSBp3k0gx9mSnVCn729L1UX0Q7iDGf1wAcygYurQsXdhVJ5G0ioI4k2F+kemNLN1jgfTNR
-PA1D6Dq/+rO9uTxf1pKKX8SzYucfqE0IuTiDs5S/RQVG3X+WUIiKeBHWncbKHn0DUQtuluivJavX
-/4DT1ehP0AN8uZy1F1pcKyogFPhY5OX5Ub1yxqCG7S9znWCP/yXBHKq2eQDDdQEbwLZuP8Aj3tou
-RrAa3Cg+PmQa1vLzkPksHaa957y8uguFKDzrXQXox2S1h/FEK5NwMjviEQfU2IP0n0lLz2QTyhR9
-p+mtX5o9ks+VrwaslQuAwNp4T1A+lsnW056n5/hO15bUKUIKnXR3oPmEZxruM4Lr/7kaA4ZBENJs
-HaHJRY7e2WKwCPfN+V1vh+TmyJWenswWshgR6fKt9nSm4+VWC+y4B3NMd7RdrsUk+S3TUfsdUMog
-RHlspcL24Yl58EXWqsQ14LEXTASeh1AJ1TWGbNTgKzHWUSsXQQHb
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5TUoACgkQe6Cb21frEHrrMwwAxoIP
+Qr2Qkb2ig5y9JNoYZhEBn8FY8Puymtxg/e8Vk2Z4SkiR7xhY+DDlvhRyzzCabE9vIUMt6wwFI4bd
+7GgBYKF+mAZ3wyb+2tLz+eMUMXHQsTIawqzu6aSsrVI696hj8iA2HbPHMFB+5tlVFE8wpHHR6bLN
+p19sEktFp7ThCFEY90mBTEqPfWF15EbKc4RCTe94T5fKSlS8N67OW/zQSuuKWqXCGz2lGYcCHswD
+Z2fBbJNSsfJbBNZdGGMCAN8MW7Zed0+g79KehdHoPpFVZJYaZZA2jbpZRlTD6MXH23W5d32/38cj
+SsIIZh/9/VYygRQC78bEjgCh9lEgeLTP1jbSOGsvF+rA90mSyeCjvle3iY4nWQwkjX642HrIJfsW
+SlDl0H/sR3NWY52J5jX7xEbQiIekz31TGALil3zfF9ltGoKPwvysMuGaZKzxhRk3u5M8QSpUwePN
+bP5gVAY9qlr/XgtshDpn7HlCFfpjhvEy8wBaIiiVQpSAtDJ+EQRo
 
 -->

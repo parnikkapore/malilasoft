@@ -2,19 +2,17 @@
 <?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
 <c:catalog xmlns:c="http://0install.de/schema/injector/catalog" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"><interface uri="https://parnikkapore.github.io/malilasoft/cmd/lite-xl.xml"><name>Lite XL</name><summary>a lightweight text editor written in Lua</summary><description>
     A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite.
-    
-    <br/>
+
     The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
-  
-  </description></interface></c:catalog>
+  </description><icon type="image/png" href="https://parnikkapore.github.io/malilasoft/resources/icons/lite-xl.png"/><icon type="image/vnd.microsoft.icon" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.ico"/><icon type="image/x-icns" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.icns"/><homepage>https://lite-xl.com/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5KX8ACgkQe6Cb21frEHrnVAv+JOaU
-lVGQ2xMGZXeBxUiBhG7ygXkV751+/qkicmpwS2/1mDFWaG2t4GRDi1Yxy6ddyt4vHWjbcgyuuBjy
-cmctfRHv+k2LgHVL6oPuzkstGD3NylBELermxa9HgNDpyq9p+5Q3Q4TA4cSf5rt1aUs5Mk+aHsqL
-XtHPaqW2007oETkbwRCncnhd3MgDU2n02CWWzbTJrAQzbouzQdTpL0pN/yzdVZQgiS6KzbzS0Opw
-QYS4W5duiFi5a0MTyBUnA236uhNPM+TgUeGX1DxpRoQPYB7EliCE172Arr3nw8pXlR7lUm5nuy+b
-9UCqaw8XlZGyVB0fR0j9kHg+0626hrmk7vl51Chr+7LOKy3FF+t4UFC9yLLgwMdrsrEmP6iA1c+q
-u8ecg2fmOApf7JTPekQ6Hzu5cXl87m0tG/CJQ1jWndECHicJBywPPpzvfNm54BHPUW57PcIK3X2V
-2bw8CYUpNMGv22d+PHcCWN16eNTYveVEeHofw3JF4vL1LIZ4Ikil
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5TgIACgkQe6Cb21frEHqItwwAkc5D
+KSLAvYykwpJ4rjnTKtH/Iqa4fm1RzQTYBCF/6IkplALBxNUKpWDmg+lKi5uqWiNOX31ejfT3qtmz
+I05FUJtatNPfQTE5mdo9xvaZUSRU4+gF1IwD/rgKipjnrwRaUZuaptLaThEhZbpFklEGetyZboMy
+b/cyVpyOC2jE2OpdUuO2kMJWd+616zZfVaAFkTjtkuy4DEvhVt4WvQYf9UbNvdl+KGQT8KQM7s4l
+nFf4l3zL06LMPRdZrE5iTylcA8HNkRVb8j7VdgFP55goXyl1cMwcZ9W9hvlQYMr0dV16g4ELji7L
+znJWHWmrc9WLtSVAMIY+2bqld6ObklyqdzxiVwKvTbmDASkdIW9jCy1ClSfN2Y9xBaZQ5Mlfp0p5
+QAXhRoJvWFp8SQYCQGAF8ZBOlgch7V9ruXRRd2ALezDCdD/Ak9UX5Wq/PqN1qiGzPRBUk3OY2sNk
+gt2+OrZ4mURVi25Hu0viM59n41w/lVbPMygvvMq5Q2vFjgeU50Py
 
 -->

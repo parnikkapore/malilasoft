@@ -2,17 +2,17 @@
 <?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
 <c:catalog xmlns:c="http://0install.de/schema/injector/catalog" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"><interface uri="https://parnikkapore.github.io/malilasoft/lite-xl.xml"><name>Lite XL</name><summary>a lightweight text editor written in Lua</summary><description>
     A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite.
-    
+
     The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
   </description><homepage>https://lite-xl.com/</homepage><icon type="image/svg" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/lite-xl.svg"/><icon type="image/png" href="https://parnikkapore.github.io/malilasoft/resources/icons/lite-xl.png"/><icon type="image/vnd.microsoft.icon" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.ico"/><icon type="image/x-icns" href="https://github.com/lite-xl/lite-xl/raw/master/resources/icons/icon.icns"/></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5SpIACgkQe6Cb21frEHp5kwwAwvxB
-L22mG++FNKRYfZFRHlqa80KwLL3KVbAYPN9igTrwmnqUMuLgUSuo8tos7gnJ+nCdd4lv+fz6Svc2
-mZFCGLsOie9xyVtqWSERjzS4LZv33des5hAqx+4Esx336RSNDoXl7b1bIAJACMrZOxgSLbRthTfq
-Ekga50gELDAD/T79pBrfjFDK9ZYHA+kExIJbklSvQBWxZl8FWvLX0IqsVEYyZZzLgLyKUq+3/WGS
-+5cQ02tUEANmZRHcoQiBbwLCJENsK8ShsgO+J98KF39uZpG35/sGKHT+LDK0kmpI+Yr9L2q2Wvxg
-88YaS5toiEeYpeYnraP41QGOzZE4AbrgfDpfWp43OOL3wVCtNhP3Kh9zz7ptRPb1ZJ5bthqwklSL
-qMagOeKqcjgL1J/hOwHu2xEUcKIBd75ApkIK7c/4Ah7KQDqZXGPO8m14i7p+k22/kl0III105SKA
-ZgT2NHRi26EJP7bszGOoq1U50ZVMIjKxAsHDf2e7uNX3H1zsxlha
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5TUoACgkQe6Cb21frEHqP4Qv/ZN+x
+ygNPZ8DGTbBVZY4sLwUgK+oAbz2l0MoBVaWmupOJEw4LXhcwFPsGwteLcaD9uyB+VUPByOYTrptu
+G63KO3i7klLMC1yEqbdkrSw7P0LiT3ydg6Xy4uJ48r8kmLTKy6UJSpDFF9Qenbu7VnOSn6Q8/FaT
+tTUaXYrKSbC6XqX27ChXb8SnRzqltbyURW4Vhp47vixuDuQN2xKheoz2A1PvV6FyMdJTNBZ2iDHR
+bi5G7FdE4Bv2GrSuB8HOoSBRrRL7QheMv6qKNeWvQkv+i4pBkUGZZAM5iyJy7vikOyktHGHX+WdU
+ysYaBwsyt6IfW4qRIP5JelIIYq4aGOYqbgR5YNiGwxFGJ+Fai85QJaP7K7hrI3jrtGIsC1Dp6/10
+TCbQKfFurFUDpZt8eLUE1bqHwP0x01gXkPgjUHnsv4bFK6yFMF5j9Nsr5JrCcFbWUkZ/GP1g1XJj
+OBxl19gCWGkIU1zxv2x7hlqZjjhfM1EIxFU8GpaE1pFZnp/QrAxz
 
 -->
