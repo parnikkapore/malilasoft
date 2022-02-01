@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://parnikkapore.github.io/malilasoft/glibc.xml">
+  <name>glibc</name>
+  <summary>the GNU C Library</summary>
+
+  <description>
+    This Zero Install feed is provided as a proxy for system libraries, so that other feeds can depend on them.
+
+    -----
+
+    The GNU C Library project provides *the* core libraries for the GNU system and GNU/Linux systems, as well as many other systems that use Linux as the kernel. These libraries provide critical APIs including ISO C11, POSIX.1-2008, BSD, OS-specific APIs and more. These APIs include such foundational facilities as open, read, write, malloc, printf, getaddrinfo, dlopen, pthread_create, crypt, login, exit and more.
+
+    The GNU C Library is designed to be a backwards compatible, portable, and high performance ISO C library. It aims to follow all relevant standards including ISO C11, POSIX.1-2008, and IEEE 754-2008.
+
+    The project was started circa 1988 and is more than 30 years old.
+  </description>
+
+  <homepage>https://www.gnu.org/software/libc/</homepage>
+
+  <group><!--
+    ("&#45;" = "-". Backwards compatibility FTW!)
+    <command name="compile" shell-command="&quot;$SRCDIR/configure&quot; &#45;&#45;prefix=&quot;$DISTDIR&quot; &amp;&amp; make install">
+      <compile:implementation xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+        <command name="run" path="bin/myprog"/>
+      </compile:implementation>
+    </command>
+
+    <implementation version="{version}" arch="*-src">
+      <manifest-digest/>
+      <archive href="http://example.com/downloads/myprog-{version}.zip"/>
+    </implementation>
+    -->
+<!-- Repology: https://repology.org/project/glibc/versions -->
+    <package-implementation package="libc6"/>
+    <package-implementation package="glibc"/>
+    <package-implementation package="sys-libs/glibc"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5SpIACgkQe6Cb21frEHp3pQwAp3a0
+S05nSes8+nSd2+W1JP4JsU3QXUesyy0BUeSguuMNdY6aoB/cZyRFaJedw5slILxFT/xSTFDjAfuv
+Xxas/3z6xy4+Gd+m8+OyOaICt5bKGYIlYzr4YMxtQXOH26EyqHxKtt4QqPTmpabu2bcgC1zVyYzs
+MVHtypfKi6ESiCmFC5B/lNAimPDRB/o+suuNhwlSVtZenZ3iblQtiEvY4mCX5arSK5mGimm8Z5NP
+NLwEkwXRyEDrVdVn2Eugr6N0H4Pk1S5byIcpuZeKTgw/3VdMBBPMzpgK3NNqxNlQaU84gkKJnUuv
+RzAjbdQfXt7JD5248TiG2n+7FH81AznLbMMiLJGr+EwTqq/tI3Ml0rfUVvG0rTsqUJq0NiNJc8+c
+m1h4M1JH5eOQtrYUsWukEut9Vf6GlhhC+gDw/UAj1QJqAX+pxL+uTrhoC4KahXSwxCzMNXNVpJRr
+tecZDabAUKisiqVRHwmVJOmtu9LZWp4+Lr85mCgUB/i/qWNfXvGT
+
+-->
