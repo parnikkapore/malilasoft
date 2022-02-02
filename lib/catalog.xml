@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns:c="http://0install.de/schema/injector/catalog" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"><interface uri="https://parnikkapore.github.io/malilasoft/lib/glibc.xml"><name>glibc</name><summary>the GNU C Library</summary><description>
+    This Zero Install feed is provided as a proxy for system libraries, so that other feeds can depend on them.
+
+    -----
+
+    The GNU C Library project provides *the* core libraries for the GNU system and GNU/Linux systems, as well as many other systems that use Linux as the kernel. These libraries provide critical APIs including ISO C11, POSIX.1-2008, BSD, OS-specific APIs and more. These APIs include such foundational facilities as open, read, write, malloc, printf, getaddrinfo, dlopen, pthread_create, crypt, login, exit and more.
+
+    The GNU C Library is designed to be a backwards compatible, portable, and high performance ISO C library. It aims to follow all relevant standards including ISO C11, POSIX.1-2008, and IEEE 754-2008.
+
+    The project was started circa 1988 and is more than 30 years old.
+  </description><homepage>https://www.gnu.org/software/libc/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH6odoACgkQe6Cb21frEHqppgv+IHq2
+IOVR9rVNQiB8k5Acvq/GV9CJPXVm5rm9XUnf1/JI1fDgBXz9imGbcDRD5JUBu2VtcUS2/kiVkCct
+4rchtgEExb32raj4zxyOaHfIfKNzD8hhYcLZ4UD5eLXysNgIuKbS8dDShYV476fIELREGXFhtqtF
+DNWIAQ3k9ntKD8YRbX5uOrcHyAhQeVU7T6EsL/LZyUzZcr+Kjim8e8fEZpM7zaFyPAgaePYp9lrg
+MHd6MZLSsop8dEHpkt3uP5wNW7xitFPD8zqO1PudFaT0KOJROayORdZ63eRbQQ+cW+43lmbnaJeP
+npfSJjreUveGZnD/eUZ+YSOx6fG2JplRnqAuikYr+0h+dEtDmSo9jl26wnxP5v3r+z02eJzQzBS5
+7asJtjd1Prz3Pr6bekgFRoqhgqqeYVGNjq6v1TOqYIFDKA96v5NvEhzK2jUsROLa4tZlJv2OzmKJ
+8mhhFigInNtgp8ICtKAWs7vW0vgLzjKlkBSWuybyhFRYq/9TnAMF
+
+-->

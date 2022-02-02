@@ -5,6 +5,10 @@
   <summary>a lightweight text editor written in Lua</summary>
   
   <description>
+    This is a metafeed to be used for automatic resolving of interfaces only. Do not use or depend on this.
+
+    -----
+
     A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite.
 
     The aim of Lite XL compared to lite is to be more user friendly, improve the quality of font rendering, and reduce CPU usage.
@@ -16,16 +20,16 @@
 
   <homepage>https://lite-xl.com/</homepage>
   
-  <feed src="https://parnikkapore.github.io/malilasoft/lite-xl.xml"/>
+  <replaced-by interface="https://parnikkapore.github.io/malilasoft/lite-xl.xml"/>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH5TgIACgkQe6Cb21frEHrPXgv5AQOo
-YNNFJH6qZdOfoTPXiubByn/JLNhm3k9hzDDz9YpltCJEfhVOIiehSJ6w9sbbOLMeqmSaqcIfjyng
-sEozQeeb5wnW+TqMWdI3lfHQiyZMXS+/WvU39e+YEg4wDvqnXnc2irc+1te/14VXUp3qBqMhnKJD
-a9HDVNe6HbOLWzhb6IDQjgNjAVnrJQ3pF0jDIIO1ozhNOJ+yYMPCsj75atddwhDJil0MxsMEdeEA
-x/xDmJdAOd0e3c1tFuOrulmZ+A7oyt0h6IUjxAe4O4ZFH/ZmGmIBk5QUMKwpFvLXtCHMWCFIInLg
-Ls73ov2eJS+3GsqejXISuTwOXRRjE3lhmMxbEsCNxiSjInDhuCKYp8ux/XMdyySfmEh1rdKw+Qbn
-HKIIsvoKTEat93jXcTY8+nhoKac8EaiNBzMAAjAgMTQo7O7iGEslaMBHp9MY48biVq7ajuD2CS8O
-dcaee3ivgB5ekeW65i6SW2Zt87vJ9nWPCLwjYl5hJuizJF0hNiUy
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH6odkACgkQe6Cb21frEHonnAv/UpyC
+dSwQSHkt+VErr0LE2DoIXmZMhHTvb06qySpJucfh7nwiRuncbcXvG+6Q3AbmmqJig2TTyVAmlePz
+xeXGN0Ev2hXvwe47D+CNPIGh8i7w6ty0WRo7VCCVRex6vUJQvMKeGIk6qFUz56wbJbSVzuRNzKE3
+GnOyy4VXitoIm/lXdKRFYf7PrvBILaeO6FQda5XjIQ8+530QDNgucWM30QM2un0XKK+3cvBbDFGX
+/cSzacv1m/QbJRRcR2+z7A6Ef5z7bSolK123IxUs9fO/galCJEk4vh9K1W9/Ju8QkuZcUqFBOuDO
+VU8hY3CM64I2l4+JYB/Dd1bWUuVpFwjesAM4cQiQkHQn+gvN06dERFhwkeYf3bITnTCHoZsZBTOO
+dilXOy5XGc1QByKhNTaDRBMJLTuEeXeK60kkZ4C94NLfIxhwIj1y8pi9ZJNo+Bzv05989E2Mt72Q
+DkSCE1bD29lvAJCLwiXhSC4B5NGb6f4ZcZH/W4jWPCCGJ37y7zrR
 
 -->
