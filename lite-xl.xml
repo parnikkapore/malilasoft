@@ -54,18 +54,18 @@
       <group>
         <requires interface="https://parnikkapore.github.io/malilasoft/lib/glibc.xml" importance="recommended"/>
         <command name="run" path="lite-xl"/>
-        <implementation arch="Linux-x86_64" released="2022-11-20" id="sha1new=e0c3a83f3bb4a88c35c06eaf8288aec15c1190f0" stability="stable" version="2.1.0"><!-- It's more likely that we can't detect glibc than it's actually absent -->
-          <manifest-digest sha256new="R5UTHF6ZQSKH4QYGBLFQPFZ2VS555CAOVO6CEGWJPSAKQX6YOTDQ"/>
-          <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-linux-x86_64-portable.tar.gz" extract="lite-xl" size="1707114"/>
+        <implementation arch="Linux-x86_64" released="2022-11-20" id="sha1new=e3fe280e8fd76c398d3775a73044dc46d9ff3f28" stability="stable" version="2.1.0"><!-- It's more likely that we can't detect glibc than it's actually absent -->
+          <manifest-digest sha256new="IJQ6FRRLEEGCAV2VKSURXGSTZWKXSVBRATX3XMOHYK4FBTPHKDBQ"/>
+          <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-linux-x86_64-portable.tar.gz" extract="lite-xl" size="1822098"/>
         </implementation>
       </group>
-      <implementation arch="Windows-x86_64" released="2022-11-20" id="sha1new=ae30da6da78aa6c1bdf0e0710d979585f56b0faf" stability="stable" version="2.1.0">
-        <manifest-digest sha256new="5ZNT2IA7V6S4EPOCEC2NSNRAJNJX2I3PYETU5VYHRLF36C7WGZ5Q"/>
-        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-x86_64.zip" extract="lite-xl" size="2402879"/>
+      <implementation arch="Windows-x86_64" released="2022-11-20" id="sha1new=f5ffcaa03532cbe5204ab5924ae82eb7bfcf1ee5" stability="stable" version="2.1.0">
+        <manifest-digest sha256new="P33OYJ27ERWRRE6VPGIIAWCZCUASJQ7DHIDQ5IJ3TTVDGEKKPNEA"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-windows-x86_64.zip" extract="lite-xl" size="2568307"/>
       </implementation>
-      <implementation arch="Windows-i686" released="2022-11-20" id="sha1new=1c71039a95fdb397b2593d1c396593d5a61018aa" stability="stable" version="2.1.0">
-        <manifest-digest sha256new="U6472LL6H4RASWZTNKBK3HDFRTGPWP2G2MIM7QUKHKDMRYIXPGDQ"/>
-        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-i686.zip" extract="lite-xl" size="2338631"/>
+      <implementation arch="Windows-i686" released="2022-11-20" id="sha1new=8f835dc92ecf018b32144f2f0c2def8c8c8e4e27" stability="stable" version="2.1.0">
+        <manifest-digest sha256new="JMPJHOERNTWXR57NSLLZIHP5DA3TBFCNKO53Q7RFO3XPFJQLXSHQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-windows-i686.zip" extract="lite-xl" size="2504058"/>
       </implementation>
     </group>
   </group>
@@ -115,13 +115,13 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmN5oVQACgkQe6Cb21frEHoBmgv+J+vK
-xTXPp3uO+BqfoTL+BzWd/CwzvkWB3TqXC4PW0VHMqc05WWhZuQmM2PmHhWGq/5M+SLBLaOu0KHUV
-39aOmGSJVNfqx0fNuleS+wjOpkMFtDQjxIG1Ke+OY/agGsToRNOcpfzrml5vLxKOFNKmIIo7r9Vj
-viNq0Kj0JUMf0nEc5zmDxGrsVxc0PF3z37vB98crdzKWfnUQqFDkCGfwdrIxHhI1tXCRLRo/XsZh
-XmHUIn/IrYHnHl0veGerf6lfsL1RE/EvO2qNtXN3PdDKtcANVn+X3gOeuJ31DgLCqYhi6LIZkGQs
-9g8Z0pnlFVKzq1yzwKpbKtepG5o+N9bSAMQCjUR/RF7/PAPGsGI827c/VBx8m6N1BWgfZXEqtSAD
-u6rvqd16ozYv2oU3/1F6g4jlSPts+AOadRUX097OLuQerun43sb50FooyyTb8W7YYlXoQe3qiSFM
-6xafY55DEZys/NIzrZCW3B1ribPAehMCjmqfRXdLnlJZnDph4dXj
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmN5o60ACgkQe6Cb21frEHoJ4Qv/YFCg
+5KpnZe7xkPZAAYrwVa77BhYm+58B1b6R7kdE0U/gnUjodnwuwBBzQhqZleX7u34c7UI3hGXaJm0q
+K8x20+B+1r2wVtlTs+HRd5BxbzzqFX5QcP2Atu8Ly2dGFDxjvbljo6COs/Q9S+pFPFLSgLI3DBoB
+QHmWS2c/XK0PkdYfjQHvh9sMnLXdOOEzJbTcF7OyRkX+kU9y48vcv60JKmFcQXa4zedE/eNY2pe1
+Y+BGSscq1MF8DVCpisDjf40afJEhtUB0GuPRqHHUlclQGQiGCH0qy0VwOA+gIVz44FAPbMNCMkRq
+CwHzcS6LZX4m2CTo5gYZWEe0WnGxbQ9m9k31x5qNmifTphDL4dpKpCvJGkQ0zxM7pqwgSZ3OkWHh
+MAT+XpGdbEK6AQID2MWvg6MJOLSyRxP2rCZZHek0jxjfJgtrSN+HeXsfvqA+E2s3FD4vih2YSRwJ
+R7L2e1Wr0guKfU0FfgJVs8L8pUptimP492Pyo9ckTu+vgAhRRph6
 
 -->
