@@ -51,6 +51,22 @@
         <manifest-digest sha256new="EDA5CZ5YZ7XB4KSYDQN25TML7BICTQZS3DNAKVRN7IHBBFFPQQ5Q"/>
         <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip" extract="lite-xl" size="1321492"/>
       </implementation>
+      <group>
+        <requires interface="https://parnikkapore.github.io/malilasoft/lib/glibc.xml" importance="recommended"/>
+        <command name="run" path="lite-xl"/>
+        <implementation arch="Linux-x86_64" released="2022-11-20" id="sha1new=e0c3a83f3bb4a88c35c06eaf8288aec15c1190f0" stability="stable" version="2.1.0"><!-- It's more likely that we can't detect glibc than it's actually absent -->
+          <manifest-digest sha256new="R5UTHF6ZQSKH4QYGBLFQPFZ2VS555CAOVO6CEGWJPSAKQX6YOTDQ"/>
+          <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-linux-x86_64-portable.tar.gz" extract="lite-xl" size="1707114"/>
+        </implementation>
+      </group>
+      <implementation arch="Windows-x86_64" released="2022-11-20" id="sha1new=ae30da6da78aa6c1bdf0e0710d979585f56b0faf" stability="stable" version="2.1.0">
+        <manifest-digest sha256new="5ZNT2IA7V6S4EPOCEC2NSNRAJNJX2I3PYETU5VYHRLF36C7WGZ5Q"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-x86_64.zip" extract="lite-xl" size="2402879"/>
+      </implementation>
+      <implementation arch="Windows-i686" released="2022-11-20" id="sha1new=1c71039a95fdb397b2593d1c396593d5a61018aa" stability="stable" version="2.1.0">
+        <manifest-digest sha256new="U6472LL6H4RASWZTNKBK3HDFRTGPWP2G2MIM7QUKHKDMRYIXPGDQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-i686.zip" extract="lite-xl" size="2338631"/>
+      </implementation>
     </group>
   </group>
 
@@ -61,11 +77,15 @@
     </file-type>
     <file-type id="c">
       <extension value=".c"/>
-      <verb name="open"><arg>${item}</arg></verb>
+      <verb name="open">
+        <arg>${item}</arg>
+      </verb>
     </file-type>
     <file-type id="cpp">
       <extension value=".cpp"/>
-      <verb name="open"><arg>${item}</arg></verb>
+      <verb name="open">
+        <arg>${item}</arg>
+      </verb>
     </file-type>
     <file-type id="css">
       <extension value=".css"/>
@@ -78,11 +98,15 @@
     </file-type>
     <file-type id="js" explicit-only="true">
       <extension value=".js"/>
-      <verb name="open"><arg>${item}</arg></verb>
+      <verb name="open">
+        <arg>${item}</arg>
+      </verb>
     </file-type>
     <file-type id="lua">
       <extension value=".lua"/>
-      <verb name="open"><arg>${item}</arg></verb>
+      <verb name="open">
+        <arg>${item}</arg>
+      </verb>
     </file-type>
     <file-type id="markdown" explicit-only="true">
       <extension value=".md"/>
@@ -90,7 +114,9 @@
     </file-type>
     <file-type id="python" explicit-only="true">
       <extension value=".py"/>
-      <verb name="open"><arg>${item}</arg></verb>
+      <verb name="open">
+        <arg>${item}</arg>
+      </verb>
     </file-type>
     <file-type id="xml">
       <extension value=".xml"/>
@@ -99,13 +125,13 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmH6odMACgkQe6Cb21frEHp+1gv+LKQ2
-3p7J1gs2Qj1dv8uO/L1iL+BV+tVdqh9K0zJ8QsUbbtP6GYG00yMg0UyNowj0luTRDsllCV417ikB
-Xjb3x9m8+20+dAF8nyfmlYo/yOlHwYoNJqMXtMtzBuGYeqzo7z+dVRVqpi+WzbINpEwyiqZjvqBH
-xTZnYRuo8io2I+xeHPyYeAvy0kxzcM/ztwOsK5dTb/77SKB8WeurXDk06+CxOkHLgWMuDKdd+ZED
-zeGFkrnru6PeSaFxTbzjNuxNldUdLqf26CDRDwQTWe8jmDWiWLJZ8eC6ooBwnNi+JUHaxXyvhP4T
-fouJeT3mBIZoI+wndf9CD9zfA2wzDLHmLFpxkKt1OOGCRiSueJMLJxEbdS67wnj8Ws6wlDXQ3b/q
-W+dAL3F0JS3XTBuI8u1gU3hTNUnrNjxUoQj8g1HwumhEAMOXxjCAJ/W6iayU0Bbp25Q4GgAeA7Ux
-nQO8vJ88ve8mkCZ6LIrk96s4mxwMACPc0ZqIx4eDrEg98/elklVi
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmN5n5IACgkQe6Cb21frEHodiwwAjkI+
+M+nLpnmhaTVgZKs07Y3atUSJ2ToS09QClQKQFEkQe7nwEze5pCJ8mdvUgu5EIP4sOrjO7AuKPi5a
+xhYgl0KNXOPz+DID3TXQuE1u3iGN3C5bt5FNXr23Tc4rvYt3gPu5HSehLM29GeGB5qdTa9w/1V6N
+ue1LELZAj325An+0Q0DohE0bov9TuGOBbMtrx3pEBn/sHkWCFgvPf2CirJGWA5batsEP+r5zE8jO
+3L6DuPG5uEeH0sBVp7gafVGgAkrfJE8cUP1lwoZvwB8T0oWMsF39jAbfsUMyyF4hf5yRuwp9SPQU
+8EaGB2EIGBDIlmxydzNyMIdwRcWE4hsgX471XQeUcME2PkZ5SRwbyrae5MaFD2lMGBLqbuV0ymL5
+v+w3xJS1LX6Z27ODofSNDvi5po4fvvstg8M4MDthaZpJeCHTavh14C3jM7kntu2hJ+JwzKk2Nzgy
+3jBfkF8EwLeKGxyP6R/lVhHvqiER7XfMlPJfTx3vEv+UacxjX+We
 
 -->
