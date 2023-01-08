@@ -58,6 +58,10 @@
           <manifest-digest sha256new="IJQ6FRRLEEGCAV2VKSURXGSTZWKXSVBRATX3XMOHYK4FBTPHKDBQ"/>
           <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-linux-x86_64-portable.tar.gz" extract="lite-xl" size="1822098"/>
         </implementation>
+        <implementation arch="Linux-x86_64" released="2023-01-08" id="sha1new=46b203283b4aa63c3de11ca091393be833a0aa2d" stability="stable" version="2.1.1"><!-- It's more likely that we can't detect glibc than it's actually absent -->
+          <manifest-digest sha256new="NELI3YCBPDFDNILIQ2WL6BZGHHBP5KENYIOESYJCEGPUBFMFX5DQ"/>
+          <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.1/lite-xl-v2.1.1-addons-linux-x86_64-portable.tar.gz" extract="lite-xl" size="1845300"/>
+        </implementation>
       </group>
       <implementation arch="Windows-x86_64" released="2022-11-20" id="sha1new=f5ffcaa03532cbe5204ab5924ae82eb7bfcf1ee5" stability="stable" version="2.1.0">
         <manifest-digest sha256new="P33OYJ27ERWRRE6VPGIIAWCZCUASJQ7DHIDQ5IJ3TTVDGEKKPNEA"/>
@@ -66,6 +70,14 @@
       <implementation arch="Windows-i686" released="2022-11-20" id="sha1new=8f835dc92ecf018b32144f2f0c2def8c8c8e4e27" stability="stable" version="2.1.0">
         <manifest-digest sha256new="JMPJHOERNTWXR57NSLLZIHP5DA3TBFCNKO53Q7RFO3XPFJQLXSHQ"/>
         <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-windows-i686.zip" extract="lite-xl" size="2504058"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" released="2023-01-08" id="sha1new=4b457bde0d0c45c60c33696d9b2a39a4d6247ec4" stability="stable" version="2.1.1">
+        <manifest-digest sha256new="INJVGEOCP24HLU6D7ZA5PMJ4DALLKXCPLPGYMYMW2CGXJFCOGFMQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.1/lite-xl-v2.1.1-addons-windows-x86_64.zip" extract="lite-xl" size="2584964"/>
+      </implementation>
+      <implementation arch="Windows-i686" released="2023-01-08" id="sha1new=6b0a2f34902a7b11e15d940987198c4b9b9f60c5" stability="stable" version="2.1.1">
+        <manifest-digest sha256new="GB4VM4WJ4AK3AX6XLYYOJA5IXUZH6EAE5PYN226DKLIIY6ZVZTJQ"/>
+        <archive href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.1/lite-xl-v2.1.1-addons-windows-i686.zip" extract="lite-xl" size="2630762"/>
       </implementation>
     </group>
   </group>
@@ -115,13 +127,13 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmN5o60ACgkQe6Cb21frEHoJ4Qv/YFCg
-5KpnZe7xkPZAAYrwVa77BhYm+58B1b6R7kdE0U/gnUjodnwuwBBzQhqZleX7u34c7UI3hGXaJm0q
-K8x20+B+1r2wVtlTs+HRd5BxbzzqFX5QcP2Atu8Ly2dGFDxjvbljo6COs/Q9S+pFPFLSgLI3DBoB
-QHmWS2c/XK0PkdYfjQHvh9sMnLXdOOEzJbTcF7OyRkX+kU9y48vcv60JKmFcQXa4zedE/eNY2pe1
-Y+BGSscq1MF8DVCpisDjf40afJEhtUB0GuPRqHHUlclQGQiGCH0qy0VwOA+gIVz44FAPbMNCMkRq
-CwHzcS6LZX4m2CTo5gYZWEe0WnGxbQ9m9k31x5qNmifTphDL4dpKpCvJGkQ0zxM7pqwgSZ3OkWHh
-MAT+XpGdbEK6AQID2MWvg6MJOLSyRxP2rCZZHek0jxjfJgtrSN+HeXsfvqA+E2s3FD4vih2YSRwJ
-R7L2e1Wr0guKfU0FfgJVs8L8pUptimP492Pyo9ckTu+vgAhRRph6
+iQGzBAABCgAdFiEE40Tyv3S5E/FYoigne6Cb21frEHoFAmO6WlYACgkQe6Cb21frEHo96Av/e4ha
+9D0xmaUASyAD0bLTB5j/nO2oyiRDbbW2Rh4VpNK0sK90Yk0dt/6sl3uu5UaJbAhxQ8tXHKUPcKyM
+NPoYvMJNjm0bnd4367wQXHi/3VwtpwUDwiA6IKY0u0+fJstEYH1knE1v69C65JPffNzQnT4iZDeJ
+Bx+4fXu/AfoQazzs3bOSh9WtbQsKyy9QvV59TODkEYfYE6RQxoFD6xart0c5/vMb6ndGzb1Ns7KI
+10KthOY1BpjuwLt7vH4pd1/beyHCeNnw9kS2w3KcF+t+bSWsVbqke+2VkKHJleYgNYNkavSZ7gkf
+bTzh+lUg/XAguQuIMPBrRWU45ZQoBXTw1xlLsXEHpq8hkX0Jyuos4KSEvNTzRnny2JMvGDy1nib/
+3DjWx0pOMJaek8QIdqjgxwBlb2z5QM8h8S2dlXKtJncEDuq53i0KCC2h15RDrmdfFENG9aOX8ZBK
+3MrU1HIktURsMEduSXjb/BPak7cHOXjeGNYFJVqRHiF94PtPe2f9
 
 -->
